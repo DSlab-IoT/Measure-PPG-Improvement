@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75333713320",
+    "project_id": "iot-ppg",
+    "storage_bucket": "iot-ppg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75333713320:android:6a948910f8f7d742b1719d",
+        "android_client_info": {
+          "package_name": "com.example.luolab.measureppg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-gPkgP-_TOhH7otTxpjnl8f1lkVgZRM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

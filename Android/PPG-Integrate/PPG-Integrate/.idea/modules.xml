@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PPG-bluetooth.iml" filepath="$PROJECT_DIR$/.idea/modules/PPG-bluetooth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PPG-bluetooth.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PPG-bluetooth.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PPG-bluetooth.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PPG-bluetooth.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PPG-bluetooth.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PPG-bluetooth.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PPG-bluetooth.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PPG-bluetooth.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary341/PPG-bluetooth.openCVLibrary341.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary341/PPG-bluetooth.openCVLibrary341.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary341/PPG-bluetooth.openCVLibrary341.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary341/PPG-bluetooth.openCVLibrary341.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary341/PPG-bluetooth.openCVLibrary341.main.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary341/PPG-bluetooth.openCVLibrary341.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary341/PPG-bluetooth.openCVLibrary341.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary341/PPG-bluetooth.openCVLibrary341.unitTest.iml" />
+    </modules>
+  </component>
+</project>

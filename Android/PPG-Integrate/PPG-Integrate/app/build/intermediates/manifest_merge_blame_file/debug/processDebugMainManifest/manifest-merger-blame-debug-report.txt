@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.luolab.measureppg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="27" />
+10
+11    <uses-feature android:name="android.hardware.usb.host" />
+11-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:4:5-62
+11-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:4:19-59
+12
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:6:5-65
+13-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILES" />
+14-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:7:5-77
+14-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:7:22-75
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:8:5-79
+15-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:9:5-65
+16-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:9:22-63
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:10:5-68
+17-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:10:22-65
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:12:5-60
+19-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:12:19-57
+20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:13:5-70
+20-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:13:19-67
+21    <uses-feature android:name="android.hardware.camera.front" />
+21-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:14:5-66
+21-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:14:19-63
+22    <uses-feature android:name="android.hardware.camera.front.autofocus" />
+22-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:15:5-76
+22-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:15:19-73
+23    <uses-feature android:name="android.hardware.camera.flash" />
+23-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:16:5-66
+23-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:16:19-63
+24
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:18:5-80
+25-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:18:22-78
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:19:5-67
+26-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:19:22-64
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:20:5-79
+27-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:20:22-76
+28
+29    <!-- My Add -->
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:23:5-79
+30-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:23:22-76
+31    <uses-permission android:name="android.permission.BLUETOOTH" />
+31-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:24:5-68
+31-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:24:22-65
+32    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+32-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:25:5-74
+32-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:25:22-71
+33    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+33-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:26:5-81
+33-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:26:22-78
+34    <uses-permission android:name="com.google.android.things.permission.MANAGE_BLUETOOTH" />
+34-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:27:5-93
+34-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:27:22-90
+35
+36    <application
+36-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:29:5-49:19
+37        android:allowBackup="true"
+37-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:30:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.2.0] C:\Users\kai\.gradle\caches\transforms-4\788f03ce49219270811a198d0a140c65\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:31:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:32:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:33:9-54
+44        android:supportsRtl="true"
+44-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:34:9-35
+45        android:testOnly="true"
+46        android:theme="@style/AppTheme" >
+46-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:35:9-40
+47        <activity
+47-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:36:9-47:20
+48            android:name="com.example.luolab.measureppg.MainActivity"
+48-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:37:13-41
+49            android:label="@string/app_name"
+49-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:38:13-45
+50            android:theme="@style/AppTheme.NoActionBar" >
+50-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:39:13-56
+51            <intent-filter>
+51-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:40:13-46:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:41:17-68
+52-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:41:25-66
+53                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+53-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:43:17-90
+53-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:43:25-87
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:45:17-76
+55-->C:\Users\kai\Desktop\PPG-Integrate\PPG-bluetooth\app\src\main\AndroidManifest.xml:45:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <service
+59-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:27:13-84
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:28:13-37
+63            <meta-data
+63-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+64                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+64-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+67                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+67-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-database:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\01e335f1e1630e3a0742d049c183d513\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\2be7d9ffe885f42c7cbcc8265335065a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+70                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+70-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\2be7d9ffe885f42c7cbcc8265335065a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\2be7d9ffe885f42c7cbcc8265335065a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+73                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+73-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+75        </service>
+76
+77        <provider
+77-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+78            android:name="com.google.firebase.provider.FirebaseInitProvider"
+78-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+79            android:authorities="com.example.luolab.measureppg.firebaseinitprovider"
+79-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+81            android:exported="false"
+81-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+82            android:initOrder="100" />
+82-->[com.google.firebase:firebase-common:21.0.0] C:\Users\kai\.gradle\caches\transforms-4\8dacefc3a0a35add5e36a241e9f0ff2c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kai\.gradle\caches\transforms-4\b812e7afeb05dc11c846a338631b9abd\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kai\.gradle\caches\transforms-4\b812e7afeb05dc11c846a338631b9abd\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kai\.gradle\caches\transforms-4\b812e7afeb05dc11c846a338631b9abd\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\kai\.gradle\caches\transforms-4\b812e7afeb05dc11c846a338631b9abd\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\kai\.gradle\caches\transforms-4\20660d797c7368a5884ec590eba18895\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\kai\.gradle\caches\transforms-4\20660d797c7368a5884ec590eba18895\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\kai\.gradle\caches\transforms-4\20660d797c7368a5884ec590eba18895\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+92    </application>
+93
+94</manifest>

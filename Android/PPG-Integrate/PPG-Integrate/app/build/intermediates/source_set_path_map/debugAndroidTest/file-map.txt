@@ -1,0 +1,5 @@
+com.example.luolab.measureppg.test.app-androidTest-0 C:\Users\C5DD\Desktop\IOT\Project2\Measure_PPG_UI_modified_latest\app\build\generated\res\resValues\androidTest\debug
+com.example.luolab.measureppg.test.app-androidTest-1 C:\Users\C5DD\Desktop\IOT\Project2\Measure_PPG_UI_modified_latest\app\build\generated\res\rs\androidTest\debug
+com.example.luolab.measureppg.test.app-mergeDebugAndroidTestResources-2 C:\Users\C5DD\Desktop\IOT\Project2\Measure_PPG_UI_modified_latest\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.luolab.measureppg.test.app-mergeDebugAndroidTestResources-3 C:\Users\C5DD\Desktop\IOT\Project2\Measure_PPG_UI_modified_latest\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.luolab.measureppg.test.app-merged_res-4 C:\Users\C5DD\Desktop\IOT\Project2\Measure_PPG_UI_modified_latest\app\build\intermediates\merged_res\debugAndroidTest

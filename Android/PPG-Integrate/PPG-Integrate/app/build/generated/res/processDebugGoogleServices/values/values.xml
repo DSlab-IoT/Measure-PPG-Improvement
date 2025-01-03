@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">75333713320</string>
+    <string name="google_api_key" translatable="false">AIzaSyD-gPkgP-_TOhH7otTxpjnl8f1lkVgZRM0</string>
+    <string name="google_app_id" translatable="false">1:75333713320:android:6a948910f8f7d742b1719d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD-gPkgP-_TOhH7otTxpjnl8f1lkVgZRM0</string>
+    <string name="google_storage_bucket" translatable="false">iot-ppg.firebasestorage.app</string>
+    <string name="project_id" translatable="false">iot-ppg</string>
+</resources>

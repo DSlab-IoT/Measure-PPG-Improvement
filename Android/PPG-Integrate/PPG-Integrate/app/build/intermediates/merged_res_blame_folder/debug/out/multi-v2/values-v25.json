@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.luolab.measureppg.app-mergeDebugResources-16:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\C5DD\\.gradle\\caches\\transforms-3\\c6016e21365f3a31163b4f13257e1a10\\transformed\\appcompat-1.2.0\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

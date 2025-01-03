@@ -1,0 +1,4 @@
+#Mon Dec 16 03:07:30 CST 2019
+base.0=C\:\\Making_Guide\\Measure_PPG\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex
